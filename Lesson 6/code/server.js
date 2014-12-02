@@ -31,7 +31,7 @@ app.get('/api/todos', function (req, res) {
 app.post('/api/todos', function (req, res) {
 	var data;
 	try {
-		data = JSON.parse(req.body);
+		data = req.body;
 		if (!req.body || !Array.isArray(data)) {
 			throw new Error('Wrong data format!');
 		}

@@ -1,0 +1,67 @@
+BODY {
+    font-size: 13px;
+    margin: 0;
+    background-color: #204a87;
+    font-family: sans-serif;
+}
+
+#inputview {
+    width: 980px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+#inputview INPUT {
+    height: 100%;
+    border: 0;
+    padding: 0;
+}
+
+#inputview INPUT[type=text] {
+    width: 50%;
+    background-color: #eeeeec;
+}
+
+#inputview INPUT[type=button] {
+    width: 25%;
+    margin-left: -4px;
+    background-color: #babdb6;
+}
+
+#listview {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#listview UL {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#listview LI {
+    padding: 0;
+    height: 40px;
+    line-height: 40px;
+    background-color: #4e9a06;
+}
+
+#listview LI:hover {
+    background-color: #73d216;
+}
+
+#listview LI.active {
+    background-color: #a40000;
+}
+
+#listview LI.active:hover {
+    background-color: #cc0000;
+}
+
+#footerview {
+    width: 980px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #eeeeec;
+    line-height: 40px;
+}
